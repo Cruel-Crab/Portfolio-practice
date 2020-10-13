@@ -1,0 +1,163 @@
+body{
+    
+    background: orange;
+    margin: 0;
+    padding: 20px;
+    
+}
+.link{
+    
+    font-size: 24px;
+    color:darkblue;
+}
+.container{
+    width:800 px;
+    margin:0 auto;
+    background: white;
+    box-shadow: 0px 9px 13px 5px;
+    
+    
+}
+header{
+    text-align: center;
+    padding: 45px 0 20px 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    
+}
+header a{
+    color: darkgreen;
+    font-size: 18px;
+}
+header a:hover{
+    font-size: 21px;
+}
+.menus{
+    
+    background: darkgreen;
+    padding: 6px 0 6px 50px;
+}
+.menus a{
+    
+    color: darkgray;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family:"Arial Narrow"
+}
+.menus a:hover{
+    color:white;
+    font-size: 21px;
+}
+
+a:hover{
+    color: black;
+    font-size: 18px;
+    transition: ease-in-out 0.3s;
+}
+a{
+    color: darkgrey;
+}
+a.active{
+    color: white;
+
+}
+footer{
+    text-align:center;
+    font-family: cursive;
+    font-size: 13px;
+    background: #d6d6d6;
+    text-decoration: overline;   
+}
+footer a{
+    color: blue;   
+}
+footer a:hover{
+    color: blue;  
+    font-size: 18px;
+    transition: ease-in-out 0.3s; 
+}
+span{
+    color:white;
+    font-size: 15px;
+    
+}
+aside{
+    float: left;
+    width: 120px;
+    padding: 20px 0 0 40px;
+    margin-top: 10px;
+    border-right: 2px solid darkgreen;
+    
+}
+aside h3{
+    color: darkgreen;
+    margin: 0px;
+    padding: 0 0 20px 0;
+}
+h2{
+    margin: 0px;
+    color: darkgreen;
+    font-size: 24px;
+    padding: 0 0 20px 0;
+    font-family: "Lucida Sans Unicode";
+    font-weight: normal;
+    
+}
+h3{
+    color: white;
+    margin:20px 0 5px 0;
+    font-size: 15px;
+}
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 20px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: neutral;
+}
+.main a:hover{
+    color: blueviolet;
+}
+
+#info{
+    float: right;
+    width: 20%;
+    margin: 3px;
+}
+#home_image img{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+.para{
+    clear: both;
+}
+/******************************************************************CONTACT PAGE STYLING**********************************************/
+#contact{
+    width: 500px;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#contact #message{
+    height: 50px;
+    background: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+}
+#contact #submit{
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    background: darkgreen;
+}
