@@ -121,20 +121,13 @@ h3{
     line-height: 18px;
     text-align: neutral;
 }
-.main a:hover{
-    color: blueviolet;
-}
-
-#info{
-    float: right;
-    width: 20%;
-    margin: 3px;
-}
 #home_image img{
-    width: 70%;
+    width: 100%;
+    height: auto;
     float: left;
     margin-bottom: 20px;
 }
+
 .para{
     clear: both;
 }
