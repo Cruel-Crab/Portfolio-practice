@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 body{
     
     background: orange;
@@ -53,6 +56,7 @@ a:hover{
     color: black;
     font-size: 18px;
     transition: ease-in-out 0.3s;
+    font-weight: 500;
 }
 a{
     color: darkgrey;
@@ -160,4 +164,125 @@ h1{
     width: 100%;
     height: 30px;
     background: darkgreen;
+    color:#ddd;
+
+}
+#contact #submit:hover{
+    background:white;
+    color: darkgreen;
+}
+/********************Media Queries***************************/
+@media only screen and (max-width: 600px) {
+    #contact{
+        width: 220px;
+        /*border: 2px solid black;*/
+        margin: 0 auto;
+        margin-bottom: 4px;
+        padding: 4px;
+        font-size: 13px;
+        box-shadow: 0px 9px 13px 5px;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 26px;
+    }
+    #contact #message{
+        height: 20px;
+        background: whitesmoke;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #contact #submit{
+        border-radius: 5px;
+        width: 100%;
+        height: 20px;
+        background:darkgreen;
+        color:#ddd;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #contact{
+        width: 300px;
+        /*border: 2px solid black;*/
+        margin: 0 auto;
+        margin-bottom: 5px;
+        padding: 5px;
+        font-size: 14px;
+        box-shadow: 0px 9px 13px 5px;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 32px;
+    }
+    #contact #message{
+        height: 25px;
+        background: whitesmoke;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #contact #submit{
+        border-radius: 5px;
+        width: 100%;
+        height: 25px;
+        background:darkgreen;
+        color:#ddd;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #contact{
+        width: 400px;
+        /*border: 2px solid black;*/
+        margin: 0 auto;
+        margin-bottom: 7px;
+        padding: 7px;
+        font-size: 17px;
+        box-shadow: 0px 9px 13px 5px;
+        border-radius: 5px;
+        font-weight: 500;
+    }   
+    #contact #message{
+        height: 35px;
+        background: whitesmoke;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #contact #submit{
+        border-radius: 5px;
+        width: 100%;
+        height: 25px;
+        background: darkgreen;
+        color:#ddd;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #contact{
+        width: 500px;
+        /*border: 2px solid black;*/
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 20px;
+        box-shadow: 0px 9px 13px 5px;
+        border-radius: 5px;
+        font-weight: 550;
+    }
+    #contact #message{
+        height: 50px;
+        background: whitesmoke;
+        width: 100%;
+        border-radius: 5px;
+    }
+    #contact #submit{
+        border-radius: 5px;
+        width: 100%;
+        height: 30px;
+        background: darkgreen;
+        color:#ddd;
+    }
 }
