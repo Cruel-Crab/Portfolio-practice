@@ -5,11 +5,9 @@ body{
     
     background: orange;
     margin: 0;
-    padding: 20px;
-    
+    padding: 20px;   
 }
-.link{
-    
+.link{  
     font-size: 24px;
     color:darkblue;
 }
@@ -17,16 +15,13 @@ body{
     width:800 px;
     margin:0 auto;
     background: white;
-    box-shadow: 0px 9px 13px 5px;
-    
-    
+    box-shadow: 0px 9px 13px 5px;  
 }
 header{
     text-align: center;
     padding: 45px 0 20px 40px;
     border: 2px solid black;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 header a{
     color: darkgreen;
@@ -35,13 +30,11 @@ header a{
 header a:hover{
     font-size: 21px;
 }
-.menus{
-    
+.menus{  
     background: darkgreen;
     padding: 6px 0 6px 50px;
 }
 .menus a{
-    
     color: darkgray;
     text-decoration: underline;
     font-size: 20px;
@@ -51,7 +44,6 @@ header a:hover{
     color:white;
     font-size: 21px;
 }
-
 a:hover{
     color: black;
     font-size: 18px;
@@ -63,7 +55,6 @@ a{
 }
 a.active{
     color: white;
-
 }
 footer{
     text-align:center;
@@ -80,18 +71,12 @@ footer a:hover{
     font-size: 18px;
     transition: ease-in-out 0.3s; 
 }
-span{
-    color:white;
-    font-size: 15px;
-    
-}
 aside{
     float: left;
     width: 120px;
     padding: 20px 0 0 40px;
     margin-top: 10px;
     border-right: 2px solid darkgreen;
-    
 }
 aside h3{
     color: darkgreen;
@@ -105,7 +90,6 @@ h2{
     padding: 0 0 20px 0;
     font-family: "Lucida Sans Unicode";
     font-weight: normal;
-    
 }
 h3{
     color: white;
@@ -125,13 +109,22 @@ h3{
     width: 100%;
     height: auto;
     float: left;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
-
 .para{
     clear: both;
 }
-/******************************************************************CONTACT PAGE STYLING**********************************************/
+#intro .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+    align-items: center;
+    color: orange;
+    border-bottom: 1px solid darkgreen;
+  }
+ /******************************************************************CONTACT PAGE STYLING**********************************************/
 #contact{
     width: 500px;
     /*border: 2px solid black;*/
@@ -166,6 +159,26 @@ h1{
 }
 /********************Media Queries***************************/
 @media only screen and (max-width: 600px) {
+    #intro .content h1 {
+        margin: 12px 0;
+        font-size: 2.5em;
+        font-weight: 300;
+      }
+      #intro .content span{
+          color:darkgreen;
+          font-size: 18px;
+      }
+      #intro .content h2 {
+        padding: 0;
+        border: none;
+        color: orange;
+        font-size: 19px;
+      }
+      #intro .content h3 {
+        color:orange ;
+        font-size: 2em;
+        font-weight: 300;
+      }
     #contact{
         width: 220px;
         /*border: 2px solid black;*/
@@ -197,6 +210,25 @@ h1{
     }
 }
 @media only screen and (min-width: 600px) {
+    #intro .content h1 {
+        margin: 10px 0;
+        font-size: 4em;
+        font-weight: 300;
+      }
+      #intro .content span{
+          color:darkgreen;
+          font-size: 23px;
+      }
+      #intro .content h2 {
+        padding: 0;
+        border: none;
+        color: orange;
+      }
+      #intro .content h3 {
+        color:orange ;
+        font-size: 2em;
+        font-weight: 300;
+      }
     #contact{
         width: 300px;
         /*border: 2px solid black;*/
@@ -228,6 +260,25 @@ h1{
     }
 }
 @media only screen and (min-width: 992px) {
+    #intro .content h1 {
+        margin: 15px 0;
+        font-size: 4em;
+        font-weight: 300;
+      }
+      #intro .content span{
+          color:darkgreen;
+          font-size: 26px;
+      }
+      #intro .content h2 {
+        padding: 0;
+        border: none;
+        color: orange;
+      }
+      #intro .content h3 {
+        color:orange ;
+        font-size: 2em;
+        font-weight: 300;
+      }
     #contact{
         width: 400px;
         /*border: 2px solid black;*/
@@ -254,6 +305,25 @@ h1{
     }
 }
 @media only screen and (min-width: 1200px) {
+    #intro .content h1 {
+        margin: 15px 0;
+        font-size: 4em;
+        font-weight: 300;
+      }
+      #intro .content span{
+          color:darkgreen;
+          font-size: larger;
+      }
+      #intro .content h2 {
+        padding: 0;
+        border: none;
+        color: orange;
+      }
+      #intro .content h3 {
+        color:orange ;
+        font-size: 2em;
+        font-weight: 300;
+      }
     #contact{
         width: 500px;
         /*border: 2px solid black;*/
