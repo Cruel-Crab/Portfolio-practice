@@ -1,131 +1,315 @@
 * {
-    box-sizing: border-box;
-  }
-body{
-    
-    background: orange;
-    margin: 0;
-    padding: 20px;   
+  box-sizing: border-box;
 }
-.link{  
-    font-size: 24px;
-    color:darkblue;
+body {
+  background: orange;
+  margin: 0;
+  padding: 15px;
 }
-.container{
-    width:800 px;
-    margin:0 auto;
-    background: white;
-    box-shadow: 0px 9px 13px 5px;  
+.link {
+  font-size: 24px;
+  color: darkblue;
 }
-header{
-    text-align: center;
-    padding: 45px 0 20px 40px;
-    border: 2px solid black;
-    font-size: 20px;   
+.container {
+  width: 800 px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0px 9px 13px 5px;
 }
-header a{
-    color: darkgreen;
-    font-size: 18px;
+header {
+  text-align: center;
+  padding: 45px 0 20px 40px;
+  border: 2px solid black;
+  font-size: 20px;
 }
-header a:hover{
-    font-size: 21px;
+header a {
+  color: darkgreen;
+  font-size: 18px;
 }
-.menus{  
-    background: darkgreen;
-    padding: 6px 0 6px 50px;
+header a:hover {
+  font-size: 21px;
 }
-.menus a{
-    color: darkgray;
-    text-decoration: underline;
-    font-size: 20px;
-    font-family:"Arial Narrow"
+.menus {
+  background: darkgreen;
+  padding: 6px 0 6px 50px;
 }
-.menus a:hover{
-    color:white;
-    font-size: 21px;
+.menus a {
+  color: darkgray;
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: "Arial Narrow";
 }
-a:hover{
-    color: black;
-    font-size: 18px;
-    transition: ease-in-out 0.3s;
-    font-weight: 500;
+.menus a:hover {
+  color: white;
+  font-size: 21px;
 }
-a{
-    color: darkgrey;
+a:hover {
+  color: black;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
+  font-weight: 500;
 }
-a.active{
-    color: white;
+a {
+  color: darkgrey;
 }
-footer{
-    text-align:center;
-    font-family: cursive;
-    font-size: 13px;
-    background: #d6d6d6;
-    text-decoration: overline;   
+a.active {
+  color: white;
 }
-footer a{
-    color: blue;   
+footer {
+  text-align: center;
+  font-family: cursive;
+  font-size: 13px;
+  background: #d6d6d6;
+  text-decoration: overline;
 }
-footer a:hover{
-    color: blue;  
-    font-size: 18px;
-    transition: ease-in-out 0.3s; 
+footer a {
+  color: blue;
 }
-aside{
-    float: left;
-    width: 120px;
-    padding: 20px 0 0 40px;
-    margin-top: 10px;
-    border-right: 2px solid darkgreen;
+footer a:hover {
+  opacity: 0.3;
+  transition: ease-in-out 0.3s;
 }
-aside h3{
-    color: darkgreen;
-    margin: 0px;
-    padding: 0 0 20px 0;
+h2 {
+  margin: 0px;
+  color: darkgreen;
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  font-family: "Lucida Sans Unicode";
+  font-weight: normal;
 }
-h2{
-    margin: 0px;
-    color: darkgreen;
-    font-size: 24px;
-    padding: 0 0 20px 0;
-    font-family: "Lucida Sans Unicode";
-    font-weight: normal;
+h3 {
+  color: white;
+  margin: 20px 0 5px 0;
+  font-size: 15px;
 }
-h3{
-    color: white;
-    margin:20px 0 5px 0;
-    font-size: 15px;
+.main {
+  padding: 35px 40px 20px 0;
+  color: #444444;
+  font-family: "Georgia";
+  font-size: 13px;
+  line-height: 18px;
+  text-align: neutral;
 }
-.main{
-    margin: 0 0 0 180px;
-    padding: 35px 40px 20px 0;
-    color: #444444;
-    font-family: "Georgia";
-    font-size: 13px;
-    line-height: 18px;
-    text-align: neutral;
+#home_image img {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-#home_image img{
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.para{
-    clear: both;
+.para {
+  clear: both;
 }
 #intro .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 15px;
-    align-items: center;
-    color: orange;
-    border-bottom: 1px solid darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 15px;
+  align-items: center;
+  color: orange;
+  border-bottom: 1px solid darkgreen;
+}
+/******************************************************************CONTACT PAGE STYLING**********************************************/
+#contact {
+  width: 500px;
+  /*border: 2px solid black;*/
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 0px 9px 13px 5px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+#contact #message {
+  height: 50px;
+  background: whitesmoke;
+  width: 100%;
+  border-radius: 5px;
+}
+#contact #submit {
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  background: darkgreen;
+  color: #ddd;
+}
+#contact #submit:hover {
+  background: white;
+  color: darkgreen;
+}
+/********************Media Queries***************************/
+
+@media only screen and (max-width: 600px) {
+  #intro .content h1 {
+    margin: 12px 0;
+    font-size: 2em;
+    font-weight: 300;
   }
- /******************************************************************CONTACT PAGE STYLING**********************************************/
-#contact{
+  #intro .content span {
+    color: darkgreen;
+    font-size: 18px;
+  }
+  #intro .content h2 {
+    padding: 0;
+    border: none;
+    color: orange;
+    font-size: 19px;
+  }
+  #intro .content h3 {
+    color: orange;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  #contact {
+    width: 220px;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    margin-bottom: 4px;
+    padding: 4px;
+    font-size: 13px;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+  }
+  #contact #message {
+    height: 20px;
+    background: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contact #submit {
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    background: darkgreen;
+    color: #ddd;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #intro .content h1 {
+    margin: 10px 0;
+    font-size: 4em;
+    font-weight: 300;
+  }
+  #intro .content span {
+    color: darkgreen;
+    font-size: 23px;
+  }
+  #intro .content h2 {
+    padding: 0;
+    border: none;
+    color: orange;
+  }
+  #intro .content h3 {
+    color: orange;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  #contact {
+    width: 300px;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-size: 14px;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 32px;
+  }
+  #contact #message {
+    height: 25px;
+    background: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contact #submit {
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    background: darkgreen;
+    color: #ddd;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #intro .content h1 {
+    margin: 15px 0;
+    font-size: 4em;
+    font-weight: 300;
+  }
+  #intro .content span {
+    color: darkgreen;
+    font-size: 26px;
+  }
+  #intro .content h2 {
+    padding: 0;
+    border: none;
+    color: orange;
+  }
+  #intro .content h3 {
+    color: orange;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  #contact {
+    width: 400px;
+    /*border: 2px solid black;*/
+    margin: 0 auto;
+    margin-bottom: 7px;
+    padding: 7px;
+    font-size: 17px;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+  #contact #message {
+    height: 35px;
+    background: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+  }
+  #contact #submit {
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    background: darkgreen;
+    color: #ddd;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #intro .content h1 {
+    margin: 15px 0;
+    font-size: 4em;
+    font-weight: 300;
+  }
+  #intro .content span {
+    color: darkgreen;
+    font-size: larger;
+  }
+  #intro .content h2 {
+    padding: 0;
+    border: none;
+    color: orange;
+  }
+  #intro .content h3 {
+    color: orange;
+    font-size: 2em;
+    font-weight: 300;
+  }
+  #contact {
     width: 500px;
     /*border: 2px solid black;*/
     margin: 0 auto;
@@ -134,218 +318,19 @@ h3{
     font-size: 20px;
     box-shadow: 0px 9px 13px 5px;
     border-radius: 5px;
-}
-h1{
-    text-align: center;
-    margin-bottom: 10px;
-}
-#contact #message{
+    font-weight: 550;
+  }
+  #contact #message {
     height: 50px;
     background: whitesmoke;
     width: 100%;
     border-radius: 5px;
-}
-#contact #submit{
+  }
+  #contact #submit {
     border-radius: 5px;
     width: 100%;
     height: 30px;
     background: darkgreen;
-    color:#ddd;
-
-}
-#contact #submit:hover{
-    background:white;
-    color: darkgreen;
-}
-/********************Media Queries***************************/
-@media only screen and (max-width: 600px) {
-    #intro .content h1 {
-        margin: 12px 0;
-        font-size: 2.5em;
-        font-weight: 300;
-      }
-      #intro .content span{
-          color:darkgreen;
-          font-size: 18px;
-      }
-      #intro .content h2 {
-        padding: 0;
-        border: none;
-        color: orange;
-        font-size: 19px;
-      }
-      #intro .content h3 {
-        color:orange ;
-        font-size: 2em;
-        font-weight: 300;
-      }
-    #contact{
-        width: 220px;
-        /*border: 2px solid black;*/
-        margin: 0 auto;
-        margin-bottom: 4px;
-        padding: 4px;
-        font-size: 13px;
-        box-shadow: 0px 9px 13px 5px;
-        border-radius: 5px;
-        font-weight: 500;
-    }
-    h1{
-        text-align: center;
-        margin-bottom: 15px;
-        font-size: 26px;
-    }
-    #contact #message{
-        height: 20px;
-        background: whitesmoke;
-        width: 100%;
-        border-radius: 5px;
-    }
-    #contact #submit{
-        border-radius: 5px;
-        width: 100%;
-        height: 20px;
-        background:darkgreen;
-        color:#ddd;
-    }
-}
-@media only screen and (min-width: 600px) {
-    #intro .content h1 {
-        margin: 10px 0;
-        font-size: 4em;
-        font-weight: 300;
-      }
-      #intro .content span{
-          color:darkgreen;
-          font-size: 23px;
-      }
-      #intro .content h2 {
-        padding: 0;
-        border: none;
-        color: orange;
-      }
-      #intro .content h3 {
-        color:orange ;
-        font-size: 2em;
-        font-weight: 300;
-      }
-    #contact{
-        width: 300px;
-        /*border: 2px solid black;*/
-        margin: 0 auto;
-        margin-bottom: 5px;
-        padding: 5px;
-        font-size: 14px;
-        box-shadow: 0px 9px 13px 5px;
-        border-radius: 5px;
-        font-weight: 500;
-    }
-    h1{
-        text-align: center;
-        margin-bottom: 15px;
-        font-size: 32px;
-    }
-    #contact #message{
-        height: 25px;
-        background: whitesmoke;
-        width: 100%;
-        border-radius: 5px;
-    }
-    #contact #submit{
-        border-radius: 5px;
-        width: 100%;
-        height: 25px;
-        background:darkgreen;
-        color:#ddd;
-    }
-}
-@media only screen and (min-width: 992px) {
-    #intro .content h1 {
-        margin: 15px 0;
-        font-size: 4em;
-        font-weight: 300;
-      }
-      #intro .content span{
-          color:darkgreen;
-          font-size: 26px;
-      }
-      #intro .content h2 {
-        padding: 0;
-        border: none;
-        color: orange;
-      }
-      #intro .content h3 {
-        color:orange ;
-        font-size: 2em;
-        font-weight: 300;
-      }
-    #contact{
-        width: 400px;
-        /*border: 2px solid black;*/
-        margin: 0 auto;
-        margin-bottom: 7px;
-        padding: 7px;
-        font-size: 17px;
-        box-shadow: 0px 9px 13px 5px;
-        border-radius: 5px;
-        font-weight: 500;
-    }   
-    #contact #message{
-        height: 35px;
-        background: whitesmoke;
-        width: 100%;
-        border-radius: 5px;
-    }
-    #contact #submit{
-        border-radius: 5px;
-        width: 100%;
-        height: 25px;
-        background: darkgreen;
-        color:#ddd;
-    }
-}
-@media only screen and (min-width: 1200px) {
-    #intro .content h1 {
-        margin: 15px 0;
-        font-size: 4em;
-        font-weight: 300;
-      }
-      #intro .content span{
-          color:darkgreen;
-          font-size: larger;
-      }
-      #intro .content h2 {
-        padding: 0;
-        border: none;
-        color: orange;
-      }
-      #intro .content h3 {
-        color:orange ;
-        font-size: 2em;
-        font-weight: 300;
-      }
-    #contact{
-        width: 500px;
-        /*border: 2px solid black;*/
-        margin: 0 auto;
-        margin-bottom: 10px;
-        padding: 10px;
-        font-size: 20px;
-        box-shadow: 0px 9px 13px 5px;
-        border-radius: 5px;
-        font-weight: 550;
-    }
-    #contact #message{
-        height: 50px;
-        background: whitesmoke;
-        width: 100%;
-        border-radius: 5px;
-    }
-    #contact #submit{
-        border-radius: 5px;
-        width: 100%;
-        height: 30px;
-        background: darkgreen;
-        color:#ddd;
-    }
+    color: #ddd;
+  }
 }
